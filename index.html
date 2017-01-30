@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Title</title>
-    <meta charset="utf-8">
-    <style>
+<head>
+	<title>Workshop Testen</title>
+	<meta charset="utf-8">
+<!--
+	<link href='file:///./css/fonts.css' rel='stylesheet' type='text/css'>
+-->
+	<style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
@@ -15,31 +18,173 @@
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
     </style>
-  </head>
-  <body>
-    <textarea id="source">
+</head>
+<body>
+<textarea id="source">
 
 class: center, middle
 
-# Title
+.bg[ ![What The Fuck!s per minute](img/wtfm.jpg) ]
+
+# Workshop: Testen?!1elf
 
 ---
 
-# Agenda
+# Agenda für die Woche
 
-1. Introduction
-2. Deep-dive
-3. ...
+* Test First! / Test-Driven Development
+* Refactoring / Legacy Code
+* Freitag: Evaluationsbögen für mich / Ergebnisdokumente für euch.
+
+# Agenda für heute
+
+* 10:00 – 12:00 Uhr Vorstellung, Erwartungen, Ergebnisse
+* 12:00 – 13:00 Uhr Mittagspause
+* 13:00 – 15:00 Uhr Test First!, Übungen, Diskussion
+* 15:00 – 15:15 Uhr Kaffeepause
+* 15:15 – 17:15 Uhr Test First!, Übungen, Diskussion
+* 17:15 – 17:30 Uhr Kaffeepause
+* 17:30 – 18:45 Uhr Test First!, Dokumentation
 
 ---
 
-# Introduction
+# Vorstellung
+
+Karsten Hiekmann
+
+k.hiekmann@andagon.com
+
+https://github.com/khiekmann
+
+---
+
+# Erwartungen an den Workshop
+
+Pad für alle:
+
+	https://public.etherpad-mozilla.org/p/2017-01-30_Workshop
+
+Im Browser:
+
+	etherpad-mozilla.org
+
+Eingabe:
+
+	2017-01-30_Workshop
+
+Bitte dort heute und begleitend Rückmeldungen, Fragen und Erkenntnisse eintragen.
+
+---
+
+#Ergebnisse
+
+* Definition of Done
+* Definition of Ready
+* Ground Rules
+
+---
+
+# Fragen zu
+## Vorstellung, Erwartungen, Ergebnisse?
+
+---
+
+# exerciseCrossumOfTimestamp
+
+Aufgabe: Schreibe Code, der die Quersumme der aktuellen Zeit berechnet.
+Ziel: Generell, läuft die Umgebung bei jedem? Generelles Aufwärmen.
+
+---
+
+# Diskussion exerciseCrossumOfTimestamp
+
+Diskussion, Code Review, Definition of Done.
+
+---
+
+# Theorie Test First
+
+* Red, Green, Refactor.
+* Write a test, make it run, make it right.
+* Coden, wie ein vorsichtiger Kletterer
+* ...?
+
+---
+
+# exerciseMoneyExampleByKentBeck
+
+*Das* Einstiegsbeispiel für Test First.
+
+Google Suche "Money Example by Kent Beck
+
+Aufgabe: Arbeite Kapitel 1 durch.
+
+Ziel: Was fällt auf? Schmerzlich? Nervend?
+
+---
+
+.bg[ ![screenshot of kent becks money example](img/multi-currency-money.png) ]
+
+---
+
+# Diskussion exerciseMoneyExampleByKentBeck
+
+Austausch, Erkenntnisse.
+
+---
+
+# exercisePrimeFactor
+
+https://github.com/socramob/tdd-for-beginners
+
+Aufgabe: Schreibe Tests für die Klasse 'PrimeFactors'. Vergleiche dazu auch die Tests im tdd-for-beginners-Repo.
+Ziel: Überlegen, wo Code schwach sein kann.
+
+---
+
+# Diskussion exercisePrimeFactors
+
+Überlege, wie du als Tester dem Entwickler deine Rückmeldung über seinen geschriebenen Code gibst.
+
+---
+
+# exerciseKata und Diskussion
+
+http://ccd-school.de/coding-dojo/
+http://codekata.com/kata/kata01-supermarket-pricing/
+
+Aufgabe: Wähle ein Kata und löse es mit Test First und TDD
+Ziel: Anwendung der Methoden an kniffeligen, aber einfachen Aufgaben.
+
+---
+
+# Java 7 und Hamcrest 1.1
+
+---
+
+# Refactoring of Open Source Code
+
+---
+
+# Refactoring of Michael Lange's classes
+
+---
+
+# TestDataBuilder
+
+* https://github.com/mklose/tdb
+
+---
+
+# Refactoring
+
+Write the tests, you wish you had.
 
     </textarea>
-    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
-    </script>
-    <script>
+<script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+</script>
+<script>
       var slideshow = remark.create();
     </script>
-  </body>
+</body>
 </html>
